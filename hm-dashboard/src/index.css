@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: "Inter", sans-serif;
+    --font-serif: "DM Serif Display", Georgia, serif;
+    --font-mono: "IBM Plex Mono", monospace;
+
+    --background: 27 93% 85%;
+    --foreground: 0 0% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 33% 11%;
+    --popover: 9 100% 89%;
+    --popover-foreground: 0 1% 14%;
+    --primary: 355 93% 56%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 24 60% 92%;
+    --secondary-foreground: 0 0% 20%;
+    --muted: 24 30% 90%;
+    --muted-foreground: 0 0% 38%;
+    --accent: 355 85% 44%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 24 25% 87%;
+    --input: 24 25% 87%;
+    --ring: 355 100% 44%;
+    --chart-1: 355 100% 44%;
+    --chart-2: 0 0% 18%;
+    --chart-3: 24 70% 55%;
+    --chart-4: 355 65% 65%;
+    --chart-5: 0 0% 65%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-inter;
+    background-image:
+      radial-gradient(ellipse at top right, hsl(355 100% 44% / 0.08) 0%, transparent 55%),
+      radial-gradient(ellipse at bottom left, hsl(24 60% 70% / 0.1) 0%, transparent 55%);
+    background-attachment: fixed;
+  }
+}
+
+/* Map CSS variables to Tailwind */
+.bg-background  { background-color: hsl(var(--background)); }
+.bg-card        { background-color: hsl(var(--card)); }
+.bg-primary     { background-color: hsl(var(--primary)); }
+.bg-muted       { background-color: hsl(var(--muted)); }
+.bg-accent      { background-color: hsl(var(--accent)); }
+.text-foreground       { color: hsl(var(--foreground)); }
+.text-card-foreground  { color: hsl(var(--card-foreground)); }
+.text-primary          { color: hsl(var(--primary)); }
+.text-primary-foreground { color: hsl(var(--primary-foreground)); }
+.text-muted-foreground { color: hsl(var(--muted-foreground)); }
+.text-accent           { color: hsl(var(--accent)); }
+.text-accent-foreground { color: hsl(var(--accent-foreground)); }
+.border-border  { border-color: hsl(var(--border)); }
+.ring-ring      { --tw-ring-color: hsl(var(--ring)); }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: hsl(0 0% 75%); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: hsl(0 0% 55%); }
