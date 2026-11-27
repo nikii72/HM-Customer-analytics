@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.associations": {
+    "*.jsx": "javascriptreact"
+  },
+  "emmet.includeLanguages": {
+    "javascriptreact": "html"
+  },
+  "terminal.integrated.cwd": "${workspaceFolder}",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.jsx": "${capture}.css, ${capture}.test.jsx",
+    "package.json": "package-lock.json, .eslintrc*, .prettierrc*, vite.config.*"
+  }
+}

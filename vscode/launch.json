@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "🌐 Open H&M Dashboard in Browser",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/hm-dashboard/src",
+      "preLaunchTask": "🚀 Launch H&M Dashboard"
+    },
+    {
+      "name": "🌐 Open H&M Dashboard in Edge",
+      "type": "msedge",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/hm-dashboard/src",
+      "preLaunchTask": "🚀 Launch H&M Dashboard"
+    }
+  ]
+}
