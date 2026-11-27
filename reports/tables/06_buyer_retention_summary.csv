@@ -1,0 +1,5 @@
+buyer_type,Customers,Total_Revenue,Avg_Revenue,Median_Revenue,Avg_Purchases,Customer_%,Revenue_%
+One-Time Buyer,131514,4995.7975,0.038,0.0339,1.0,9.7,0.6
+Occasional (2–5),369844,34546.973,0.0934,0.0813,3.2269,27.1,3.9
+Regular (6–20),437746,132889.4539,0.3036,0.2713,11.3246,32.1,15.0
+Power Buyer (21+),423177,712213.7496,1.683,1.1326,60.2728,31.1,80.5

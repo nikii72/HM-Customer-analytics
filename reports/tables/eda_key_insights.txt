@@ -1,0 +1,10 @@
+H&M CONSUMER BEHAVIOR - KEY INSIGHTS FROM EDA
+======================================================================
+
+1. REVENUE SCALE: Analyzed 884,645.97 total revenue across 31,788,324 transactions.
+2. CUSTOMER BASE: 1,362,281 unique customers with average 23.33 transactions per customer.
+3. AVERAGE ORDER VALUE: 0.0278 (Median: 0.0254).
+4. CHANNEL MIX: 70.4% Online vs 29.6% Store transactions.
+5. PARETO PRINCIPLE: Top 29.41% of customers drive 80% of total revenue.
+6. PEAK PURCHASE DAY: Saturday shows highest transaction volume.
+7. DATA QUALITY: Dataset is 100.00% complete.

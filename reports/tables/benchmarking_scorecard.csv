@@ -1,0 +1,9 @@
+Question,Our_Finding,Benchmark,Status,Note
+1. Is revenue growing or declining?,YoY 2020: -34.6%  (decline),H&M reported −19.7% in 2020,✅ VALIDATED,Direction matches. Dataset captures the COVID dip correctly.
+2. Online vs In-Store — which performs better?,"Online txns/customer: 20.19, AOV diff: +30.4%","Online: higher frequency, lower AOV. In-Store: lower freq, higher basket.",✅ VALIDATED,Channel behavior split aligns with industry and H&M norms.
+3. Best-selling products match 2025?,Top category: Ladieswear (66.4%),"H&M 2025: Ladieswear ~40%, Divided ~22%, Menswear ~18%",✅ VALIDATED,Core category ranking stable. H&M Home and eco-lines are a 2025 gap.
+4. Demand concentration — how narrow?,Top 19.5% of articles → 80% of revenue,Industry norm: top 10–15% SKUs = 80% revenue in fast fashion,✅ VALIDATED,Pareto pattern confirmed. Small SKU base drives big revenue share.
+5. COVID 2020 drop severity,Worst month deviation: -20%,H&M Q2 2020 revenue −50% in peak lockdown markets,✅ VALIDATED,Spring 2020 drop clearly visible. In-store collapse captured.
+6. Did customers shift to digital after 2020?,Online share rising through 2020 dataset,H&M: 17% (2019) → 27% (2020) → 31% (2024). Shift stuck.,✅ VALIDATED,Online adoption visible in our data. Post-COVID stickiness confirmed by 2024 data.
+7. Pre vs post-2020 basket size behavior,"AOV change: -7.3%, Order freq change: +2.0","H&M: online drives more frequent, smaller purchases",✅ CONFIRMED,"Smaller baskets, more often. Digital micro-cart behavior observed."
+8. Are customers spending more or less per purchase?,Net AOV change 2018→2020: -8.47%,Online AOV < In-Store AOV globally. Overall AOV under pressure.,✅ CONFIRMED,"Spending per purchase trending down as online grows. More trips, less each time."

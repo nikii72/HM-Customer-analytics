@@ -1,0 +1,46 @@
+{
+    "random_forest": {
+        "model_type": "Random Forest Classifier",
+        "purpose": "High-Value Customer Prediction",
+        "accuracy": 0.9984694832579086,
+        "precision": 0.9977906655619995,
+        "recall": 0.9945496586654922,
+        "f1_score": 0.9961675259863796,
+        "roc_auc": 0.9999779938263293,
+        "top_features": [
+            "price",
+            "unique_products",
+            "avg_order_value",
+            "customer_lifespan",
+            "max_order"
+        ],
+        "business_impact": {
+            "customers_targeted": 54315,
+            "marketing_cost": 12273.56426806035,
+            "expected_revenue": 24492.89571969182,
+            "roi_percentage": 99.55813311239986
+        }
+    },
+    "logistic_regression": {
+        "model_type": "Logistic Regression",
+        "purpose": "Churn Risk Prediction",
+        "accuracy": 0.7822335267583509,
+        "precision": 0.8108503314272709,
+        "recall": 0.8452659861565015,
+        "f1_score": 0.8277005639545352,
+        "roc_auc": 0.8287805183029853,
+        "top_coefficients": [
+            "customer_lifespan",
+            "unique_products",
+            "price",
+            "preferred_channel",
+            "first_channel"
+        ],
+        "business_impact": {
+            "high_risk_customers": 143752,
+            "intervention_cost": 4667.525571514142,
+            "revenue_saved": 18670.10228605657,
+            "roi_percentage": 300.00000000000006
+        }
+    }
+}

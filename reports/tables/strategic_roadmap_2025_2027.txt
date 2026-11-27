@@ -1,0 +1,31 @@
+STRATEGIC ROADMAP 2025-2027
+================================================================================
+
+Immediate Actions (Q1-Q2 2025)
+--------------------------------------------------------------------------------
+1. Operationalize customer segmentation in CRM and marketing workflows
+2. Deploy churn model with optimized threshold (0.4-0.5 range)
+3. Implement structured product metadata improvements
+4. Pilot cross-channel retention campaigns
+
+Near-Term Priorities (H2 2025)
+--------------------------------------------------------------------------------
+1. Implement batch-based ML scoring for weekly targeting
+2. Introduce preference center for zero-party data collection
+3. Improve return-risk monitoring using transaction patterns
+4. Expand omnichannel measurement dashboards
+
+Medium-Term Initiatives (2026)
+--------------------------------------------------------------------------------
+1. Move from batch ML scoring to near real-time scoring
+2. Integrate segmentation with personalization engine
+3. Enhance explainability reporting for executive visibility
+4. Build structured sustainability tagging for products
+
+Long-Term Vision (2027)
+--------------------------------------------------------------------------------
+1. Develop unified customer intelligence platform
+2. Enable AI-assisted personalization workflows
+3. Expand omnichannel lifecycle optimization
+4. Institutionalize ROI measurement framework across initiatives
+

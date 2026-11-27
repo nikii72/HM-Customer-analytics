@@ -1,0 +1,6 @@
+segment,Count,Pct_Customers,Total_Revenue,Pct_Revenue,Avg_Revenue,Avg_Recency,Avg_Frequency
+Champions,415925,30.5,696633.39,78.7,1.67,57.98,59.38
+Loyal,251271,18.4,104067.26,11.8,0.41,152.12,15.61
+Potential,266556,19.6,51866.05,5.9,0.19,254.3,7.32
+At Risk,295502,21.7,26263.61,3.0,0.09,382.66,3.35
+Lost,133027,9.8,5815.67,0.7,0.04,590.09,1.71
